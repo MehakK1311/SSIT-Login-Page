@@ -1,0 +1,158 @@
+body  
+{  
+    font-family: 'Arial'; 
+    background-image: url('https://wallpaper.dog/large/5557995.jpg'); 
+    max-width: 100%;
+    height: auto;
+    
+}
+
+.ssit_logo img{
+    position:absolute;
+    top: 0;
+    left: 0;
+    height: 20%;
+}
+
+/*form style*/
+form{
+    height: 500px;
+    width: 400px;
+    background-color: #5ca8b4d8;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    align-items: center;
+    align-content: center;
+    border-radius: 1em;
+    padding: 20px 20px;
+    font-family: sans-serif;
+    color: #ffffff;
+}
+
+form h2{
+    font-weight: 500;
+    text-align: center;
+}
+
+label{
+    font-family: Arial;
+    text-align: left;
+}
+
+input{
+    display: block;
+    height: 35px;
+    width: 95%;
+    background-color: #15181cb0;
+    border-radius: 5px;
+    padding: 0 10px;
+    margin-top: 8px;
+    text-align: center;
+    border-color: #ffffff;
+ 
+}
+
+.button{
+    background-color: #3b71b3;
+    display: block;
+    height: 35px;
+    width: 50%;
+    border-radius: 15px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.button:hover {
+   background-color: #0a304a; 
+   color: white;
+   cursor: pointer;
+   border-color: #000000;
+}
+
+/*social media icons*/
+.icons{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    height: 50px;
+    top: 73%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#Facebook{
+    height: 4vh;
+    border-radius:50%;
+    position: relative;
+    padding: 10px;
+}
+
+#Linkedin{
+    height: 4vh;
+    border-radius:50%;
+    padding: 10px;
+    position: relative;
+}
+
+#Instagram{
+    height: 4vh;
+    border-radius:50%;
+    padding: 10px;
+    position: relative;
+
+}
+
+#Github{
+    height: 4vh;
+    border-radius:50%;
+    padding: 10px;
+    position: relative;
+
+}
+
+#Facebook:hover{
+    height:5vh;
+}
+
+#Github:hover{
+    height:5vh;
+}
+
+#Instagram:hover{
+    height:5vh;
+}
+
+#Linkedin:hover{
+    height:5vh;
+}
+
+footer{
+  font-size: 10px;
+  text-align: center;
+  padding: 40px;
+}
+
+/*media queries*/
+@media screen and (max-width: 600px){
+    form{
+        height: 300px;
+        width: 200px;
+    }
+
+    .icons{
+        flex-direction: row;
+        width: 50px;
+        top: 93%;    
+    }
+    .button{
+        background-color: #3b71b3;
+        display: block;
+        height: 35px;
+        width: 50%;
+        border-radius: 15px;
+        margin: 20px auto;
+        text-align: center;
+    }
+}
